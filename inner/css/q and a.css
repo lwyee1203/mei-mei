@@ -1,0 +1,41 @@
+*{font-family: 微軟正黑體;}
+
+.content{
+	width:1200px;
+	margin:20px auto;
+}
+.which-q{
+	width:110px;
+	margin: 30px;
+	float:left;
+}
+.asking-online,.common-qna{
+	float:left;
+	margin:10px auto;
+	width:110px;
+	height:110px;
+	border-radius: 50%;
+	background: white;
+	border:5px solid purple;
+}
+.asking-online:hover,.common-qna:hover{
+	background: purple;
+}
+.which-q a{
+	text-decoration: none;
+	color:black;
+	z-index: 5;
+	position:relative;
+	top:40px;
+	left:5px;
+	display:block;
+}
+.which-q a:hover{
+	color:white;
+}
+.qna-column{
+	width:970px;
+	margin:30px;
+	float:right;
+}
+

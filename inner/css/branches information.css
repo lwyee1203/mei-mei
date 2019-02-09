@@ -1,0 +1,104 @@
+.content{
+	width:1200px;
+	margin:20px auto;
+}
+.which-branch{
+	width:110px;
+	margin: 30px;
+	float:left;
+}
+.taipei,.taichung,.kaohsiung{
+	float:left;
+	margin:10px auto;
+	width:110px;
+	height:110px;
+	border-radius: 50%;
+	background: white;
+	border:5px solid purple;
+}
+.taipei:hover,.taichung:hover,.kaohsiung:hover{
+	background: purple;
+}
+.which-branch a{
+	text-decoration: none;
+	color:black;
+	z-index: 5;
+	position:relative;
+	top:40px;
+	left:5px;
+	display:block;
+}
+.which-branch a:hover{
+	color:white;
+}
+.branch-inform{
+	width:970px;
+	margin:30px;
+	float:right;
+}
+.branch-inform h2{
+	font-size: 30px;
+	font-weight: bold;
+	text-shadow: 1px 1px 7px #111111;
+}
+.browsing{
+	margin:25px;
+	height:500px;
+}
+.browsing img{
+	width:750px;
+	height:500px;
+	border-radius: 5px;
+}
+.address,.phone-number{
+	width:350px;
+	height:20px;
+	margin:30px;
+	float:left;
+}
+
+.address span,.phone-number span{
+	font-family: 微軟正黑體;
+	display:block;
+	width:100px;
+	height:25px;
+	text-align: center;
+	background: purple;
+	color:white;
+	font-weight:bold;
+	float:left;
+	padding:3px;
+}
+.address p,.phone-number p{
+	float:left;
+	font-family: 微軟正黑體;
+	padding:3px;
+	border:3px solid purple;
+}
+.timetable,.traffic{
+	margin-top: 30px;
+}
+.timetable h3,.traffic h3{
+	font-family: 微軟正黑體;
+	font-weight: bold;
+	font-size: 25px;
+}
+table{
+	margin-top:30px; 
+	font-family: 微軟正黑體;
+}
+th,td{
+	width:147.5px;
+	height:20px;
+}
+th{
+	background: purple;
+	color:white;
+	font-weight: bold;
+	padding:40px 0 40px 0;
+	border:3px solid white;
+}
+td{
+	background: white;
+	border:3px solid purple;
+}

@@ -1,0 +1,216 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+	background: #DDDAE1;
+}
+.header-home{
+	background:#531253;
+	height:100px;
+	border-bottom:5px solid #C40BAE;
+	margin:0 auto;
+	padding:40px;
+}
+.logo{
+	font-family:微軟正黑體;
+	font-size: 60px;
+	color:white;
+	height: auto;
+	width:auto;
+}
+.social{
+	float:right;
+}
+
+.content{
+	margin: 20px auto 20px auto;
+	padding:15px;
+	width:1200px;
+}
+.list{
+	font-size: 25px;
+	font-family:微軟正黑體;
+	float:left;
+}
+.list a{
+	padding:12px;
+	text-decoration: none;
+	color:black;
+	display:block;
+	border-radius: 3.5px;
+	background: #554769;
+	width:300px;
+	border-bottom:0.5px solid #DDDAE1;
+}
+.list a:hover{
+	background: #723D72;
+	color:white;
+}
+
+.促銷 img{
+	width:70%;
+	height:70%;
+	margin:0 0 0 20px;
+	float:left;
+	border-radius:6px;
+}
+.service,.team{
+	float:left;
+	text-align:center;
+	margin: 20px auto;
+	width:1200px;
+	padding: 10px;
+	border-bottom: 2px solid gray;
+}
+.service h2,.team h2{
+	font-size: 30px;
+	font-family: Fantasy;
+}
+.service{
+	width:1200px;
+}
+.service-column{
+	height:320px;
+	background: #E9A6E1;
+	border-radius: 10px;
+}
+.shaping,.laser,.micro-shaping{
+	display:block;
+	float:left;
+}
+.service-column h2{
+	font-family: 微軟正黑體;
+	font-size: 25px;
+	color:white;
+	width:100px;
+	text-shadow: 2px 2px 7px #111111;
+}
+.service-name{
+	z-index:5;
+	position:relative;
+	left:180px;
+	top:65px;
+}
+.service-column img{
+	width:200px;
+	height:200px;
+	border:5px solid white;
+	border-radius: 3px;
+	z-index: 1;
+	margin:30px 90px 30px 90px;
+}
+.see-more{
+	background: white;
+	padding:2px;
+	border-radius: 30px;
+	text-align: center;
+	display:block;
+	z-index: 5;
+	width:150px;
+	position:relative;
+	top:-65px;
+	left:95px;
+}
+.see-more:hover{
+	background: purple;
+}
+.see-more a{
+	font-family: 微軟正黑體;
+	color:purple;
+	font-weight: bold;
+}
+.see-more a:hover{
+	color:white;
+}
+.our-team{
+	margin:auto;
+	width:1200px;
+	height:260px;
+}
+.our-team div{
+	background: white;
+	width:150px;
+	height:200px;
+	border-radius:50%;
+	float:left;
+	margin:30px 45px 30px 45px;
+}
+.our-team img{
+	width:150px;
+	height:200px;
+	border-radius:50%;
+	border:5px solid white;
+}
+h2{
+	font-size: 25px;
+	font-family: 微軟正黑體;
+}
+.branch-address span{
+	font-weight: bold;
+	font-family: 微軟正黑體;
+
+}
+.footer{
+	background: #D0CCD6;
+	height:300px;
+	border-bottom: 5px solid #615D68;
+	padding:15px;
+}
+.branch-address{
+	float:left;
+	width:400px;
+}
+.statement{
+	font-family: 微軟正黑體;
+	font-size: 20px;
+	width:430px;
+	float:left;
+	margin:0 auto 0 45px;
+}
+.contact{
+	font-family: 微軟正黑體;
+	width:400px;
+	margin:0 auto 0 55px;
+	float:left;
+}

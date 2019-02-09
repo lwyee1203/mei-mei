@@ -1,0 +1,288 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.wrap{
+	background-color: #F1E1FF;
+}
+
+.content{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+h2{
+	font-weight: bold;
+	font-size: 25px;
+	font-family: 微軟正黑體;
+	margin: 10px;
+	padding: 20px; 
+}
+
+hr{  
+	size: 2px;
+	color: grey;
+	margin: 5px 0px 5px 0px;
+}
+
+.bigbox{
+	width: 1000px;
+	margin: 0 auto;
+
+}
+
+.box{
+	float: left;
+	width: 600px;
+	margin: 10px;
+
+
+}
+
+.operation {
+	border: 2px solid #8E8E8E;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 10px
+	
+}
+
+legend {
+	padding: 5px 10px 5px 10px;
+	font-family: 微軟正黑體;
+	font-weight: bold;	
+	font-size: 18px;
+
+}
+
+#title{
+	font-weight: bold;
+	display: list-item;
+	list-style-type: decimal; 
+	margin-left: 20px;
+	padding: 10px;
+}
+
+#number{
+	font-size: 16px;
+	font-family: 微軟正黑體;
+	display: list-item;
+	list-style-type: decimal; 
+	margin-left: 20px;
+	padding: 10px;
+}
+
+.operation p{
+	font-size: 16px;
+	font-family: 微軟正黑體;
+	padding: 10px;
+}
+
+.rightBox{
+	float: right;
+}
+
+.doctor{
+	width: 300px;
+	margin: 10px;
+	padding: 5px;
+	border: 2px solid #8E8E8E;
+	border-radius: 15px;
+}
+
+.doctor img{
+	width: 100px;
+	padding: 10px;
+	cursor: pointer;
+	position: relative;
+	float: left;
+}
+
+.doctor p{
+	font-size: 18px;
+	font-family: 微軟正黑體;
+	font-weight: bold;
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+	float: left;
+}
+
+.comment{
+	border: 2px solid #8E8E8E;
+	border-radius: 10px;
+	padding: 5px;
+	margin: 10px;
+	width: 300px;
+	height: 500px;
+
+}
+
+#show_comment{
+	border: 2px solid #8E8E8E;
+	border-radius: 5px;
+	margin: 10px;
+	padding: 10px;
+	width: 260px;
+	height: 350px;
+}
+
+#show_comment img{
+	width: 50px;
+	padding: 5px;
+	float: left;
+}
+
+#show_comment span{
+	border: 2px solid #8E8E8E;
+	border-radius: 5px;
+	width: 185px;
+	padding: 5px;
+	font-size: 14px;
+	font-family: 微軟正黑體;
+	float: left;
+}
+
+.input{
+	padding: 10px;
+	margin: 10px;
+	height: 60px;
+	width: 200px;
+	font-family: 微軟正黑體;
+
+}
+
+.submit{
+	cursor: pointer;
+	font-family: 微軟正黑體;
+}
+
+.clear{
+	clear: both;
+}
+
+.header{
+	background: #531253;
+	height: 50px;
+	border-bottom: 5px solid #C40BAE;
+	margin: 0 auto;
+	padding: 20px;
+}
+.logo{
+	font-family: 微軟正黑體;
+	font-size: 40px;
+	color: white;
+	height: auto;
+	width: auto;
+}
+.link{
+	margin-top: 5px;
+}
+.link li{
+	font-size: 25px;
+	font-family: 微軟正黑體;
+	float: left;
+}
+.link a{
+	margin-left: 3.5px;
+	padding: 5px;
+	width: 210px;
+	border-right: 0.5px solid white;
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	color: black;
+	background: #554769;
+}
+.link a:hover{
+	background: #723D72;
+	color:white;
+}
+
+.branch-address span{
+	font-weight: bold;
+	font-family: 微軟正黑體;
+
+}
+
+.footer{
+	background: #D0CCD6;
+	height:300px;
+	border-bottom: 5px solid #615D68;
+	padding:15px;
+	margin: 0 auto;
+}
+h3{
+	font-family: 微軟正黑體;
+	font-size: 23px;
+	padding: 0px 0px 10px 0px;
+}
+.branch-address{
+	float:left;
+	width:380px;
+	margin: 10px 0px 10px 0px; 
+	padding: 15px;
+	font-family: 微軟正黑體;
+	font-size: 18px;
+}
+.statement{
+	font-family: 微軟正黑體;
+	font-size: 18px;
+	width:430px;
+	float:left;
+	margin: 10px 0px 10px 0px;
+	padding: 15px;
+}
+.contact{
+	font-family: 微軟正黑體;
+	font-size: 18px;
+	width:380px;
+	margin: 10px 0px 10px 0px;
+	padding: 15px;
+	float:left;
+}

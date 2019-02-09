@@ -1,0 +1,36 @@
+*{font-family: 微軟正黑體;}
+
+.content{
+	width:1200px;
+	margin: 30px auto;
+}
+.content h2{	
+	font-size: 30px;
+	padding:10px;
+	text-align: center;
+	font-weight: bold;
+	border-bottom: 2px solid gray;
+}
+.why-choose ul{
+	font-family: 微軟正黑體;
+	font-size: 22px;
+	padding:25px;
+	background: #B1ABBA;
+	margin:20px auto 30px auto;
+	border-radius: 5px;
+}
+.why-choose li{
+	text-align: center;
+	padding:10px;
+}
+.like-by-famous,.example{	
+	margin:30px;
+}
+.like-by-famous img,.example img{
+	width:160px;
+	height:160px;
+	border-radius: 50%;
+	border:5px solid white;
+	margin:27px;
+	float:left;
+}
